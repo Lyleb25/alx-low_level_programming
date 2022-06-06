@@ -11,7 +11,8 @@ int main(void)
 
 	int alph;
 
-	for (alph = 'a'; alph <= 'z'; alph++) | tr -d 'e''q'
+	for (alph = 'a'; alph <= 'z'; alph++) 
+		if (alph = 'e' 'q')
 	{
 		putchar(alph);
 	}
