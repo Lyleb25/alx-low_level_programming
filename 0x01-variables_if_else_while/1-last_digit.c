@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
+ * main - Program to print if, else if or else result.
  *
- *Return: 0 (Success)
+ * Return: 0 (Success)
  */
 
 int main(void)
@@ -25,7 +25,7 @@ int main(void)
 						printf("Last digit of %d is %d and is greater than 5\n", n, last);
 					else if (n == 0)
 						printf("Last digit of %d is %d is 0\n", n, last);
-					else
+					else if (n < 6 && != 0)
 						printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
 
 					return (0);
