@@ -9,8 +9,8 @@
 
 int main(void)
 {
-	int alph;
-	for (alph = 'a'; alph <= 'z'; alph++)
+	int alph; 
+	for (alph = 'a'; alph <= 'z'\n; alph++)
 		putchar(alph);
 	return (0);
 }
