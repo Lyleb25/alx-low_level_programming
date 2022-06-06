@@ -1,13 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
-/* 
- * main - Prints out if the last digit is
- * larger than 5,
- * less than 5 equals to 0,
- * less than 6 and large than 0,
+/*
+ * main - Entry point 
  *
- * Return:  0 (Success)
+ * Return: 0 (Success)
  */
 
 int main(void)
@@ -27,8 +25,7 @@ int main(void)
 					else if (n == 0)
 						printf("Last digit of %d is %d and is 0\n", n);
 					else if (n < 6 && != 0)
-						printf("Last digit of %d is %d and is less than 6 but not 0\n", n);
-
+						printf("Last digit of %d is %d and is less than 6 and not 0\n", n);
 
 					return (0);
 
