@@ -1,22 +1,19 @@
+#include "main.h"
+
 /**
-
- * main - check the code
-
+ * main - print alphabet
  *
-
  * Return: Always 0.
-
  */
 
 int main(void)
-
 {
+	int alph;
 
-    print_alphabet();
-
-    return (0);
-    {
-	    void print_alphabet(void);
-    }
-
+	for (alph = 'a'; alph <= 'z'; alph++)
+	{
+		_putchar(alph);
+	}
+	_putchar('\n');
+		return (0);
 }
