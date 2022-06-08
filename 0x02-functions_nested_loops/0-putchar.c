@@ -10,8 +10,11 @@ int main(void)
 {
 	char *n = "_putchar";
 
-	while (*n) _putchar(*n++);
+	while (*n)
+		_putchar(*n++);
+
 	_putchar('\n');
+
 	return (0);
 }
 
