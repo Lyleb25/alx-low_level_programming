@@ -8,9 +8,9 @@
 
 int main(void)
 {
-	int n;
+	char n;
 
-	n = _putchar()
+	n = _putchar;
 	{
 		putchar(n);
 	}
