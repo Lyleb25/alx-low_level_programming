@@ -11,12 +11,14 @@ int main(void)
 	int n = 0, a, alph;
 
 	while (n <= 10)
+		n++;
 	{
 		for (alph = 'a'; alph <= 'z'; alph++)
 		{
 			_putchar(alph);
 		}
 		_putchar('\n');
+		alph++;
 	}
 	return (0);
 }
