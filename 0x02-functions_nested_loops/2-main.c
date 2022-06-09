@@ -12,13 +12,10 @@ int main(void)
 
 	while (n <= 10)
 	{
-		a = 0;
-		while (a <=10)
-			
-			for (alph = 'a'; alph <= 'z'; alph++)
-			{
+		for (alph = 'a'; alph <= 'z'; alph++)
+		{
 			_putchar(alph);
-			}
+		}
 		_putchar('\n');
 	}
 	return (0);
