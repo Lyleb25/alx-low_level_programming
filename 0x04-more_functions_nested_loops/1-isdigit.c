@@ -2,7 +2,10 @@
 #include <stdio.h>
 
 /**
- * _isdigit - Check for a digit program.
+ * _isdigit - Entry point
+ *
+ * Description: Check for a digit program.
+ * @c: check if digit
  *
  * Return: 1 if c is a digit otherwise 0
  */
@@ -12,7 +15,7 @@ int _isdigit(int c)
 	       while (c <= 9);
 	       c++;
 	       
-		       if c = "%d"
+		       if (c = "%d", c)
 		       {
 			       return (1);
 		       }
