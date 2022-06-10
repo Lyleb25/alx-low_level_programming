@@ -2,7 +2,11 @@
 #include <stdio.h>
 
 /**
- * mul - multiply two integers.
+ * mul - Entry point
+ *
+ * Description: multiply two integers.
+ *@a: first integer to multiply
+ *@b: second interger to multiply
  *
  * Return: product of a * b
  */
