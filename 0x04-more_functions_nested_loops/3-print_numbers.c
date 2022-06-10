@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * void print_numbers(void) - print numbers 0 to 9.
+ * print_numbers - Entry point.
  *
- * Return:no return (void)
+ * Description: print numbers 0 to 9.
+ *
  */
 
 void print_numbers(void)
