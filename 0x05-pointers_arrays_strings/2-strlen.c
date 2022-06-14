@@ -7,17 +7,20 @@
  * Description: function that returns the length  of a string.
  *@s: the string
  *
- * Return: Always 0.
+ * Return: length of string
  */
 
 int _strlen(char *s)
 {
-	int count = 0;
+	int len = 0;
+	char s;
+
+	*s = "My first strlen!";
 
 	while (*s != 0)
 	{
-		count++;
+		len++;
 		s++;
 	}
-	return (0);
+	return (len);
 }
