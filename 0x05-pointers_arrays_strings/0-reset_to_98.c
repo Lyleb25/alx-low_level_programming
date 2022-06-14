@@ -4,8 +4,10 @@
 /**
  * void reset_to_98 - Entry point
  *
- * Description:  pointer to an int as parameter and updates the value to 98
+ * Description: pointer to an int as parameter and updates the value to 98.
+ *
  *@n: pointer to n to be updated
+
  * Return: Nothing
  */
 
