@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int n = 0, a, alph;
+	int n = 0, alph;
 
 	while (n <= 10)
 		n++;
