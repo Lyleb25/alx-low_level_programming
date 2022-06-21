@@ -16,9 +16,11 @@ int main(void)
 		for (alph = 'a'; alph <= 'z'; alph++)
 		{
 			_putchar(alph);
+			alph++;
 		}
+
 		_putchar('\n');
-		alph++;
+		
 	}
 	return (0);
 }
