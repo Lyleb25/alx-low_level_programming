@@ -11,17 +11,8 @@
 
 int _islower(int c)
 {
-	int l, lr;
-
-	l = _islower(c);
-
-	if (l == 'a')
-	{
-		lr = 1;
-	}
-	else if (l == 'A')
-	{
-		lr = 0;
-	}
-	return (lr);
+	if (c >= 97 && c <= 122)
+		return (1);
+	else 
+		return (0);
 }
